@@ -1,0 +1,26 @@
+# don't push our secrets or environmental vars
+secrets.py
+mysecrets.py
+*.env
+DONTREADME.md
+
+# don't push your local venv
+venv
+myvenv
+
+# don't push intermidiate files
+*.pyc
+__pycache__
+.mypy_cache
+
+# dependencies
+/node_modules
+
+# don't push scripts
+*.sh
+*.ps1
+scripts
+makefile
+
+# don't push unneeded data files
+.DS_Store
